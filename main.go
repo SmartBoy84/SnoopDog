@@ -167,7 +167,7 @@ func patch_location(bundleName string, executablePath string, add bool) error {
 func main() {
 
 	if len(os.Args) != 4 || (os.Args[1] != "add" && os.Args[1] != "remove") || (len(strings.Split(os.Args[2], ".")) != 3) {
-		fmt.Print("{add/remove} {x.y.z} {/usr/bin/ls}")
+		fmt.Println("{add/remove} {x.y.z} {/usr/bin/ls}")
 		os.Exit(-1)
 	}
 
