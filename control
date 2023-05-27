@@ -1,8 +1,8 @@
 Package: com.barfie.snoopy
 Name: snoopy
-Version: 0.0.1
+Version: 1.0.1
 Architecture: iphoneos-arm
-Description: An awesome application!
+Description: I am the captain now!
 Maintainer: hamdan
 Author: hamdan
 Section: Utilities
